@@ -12,11 +12,11 @@ namespace Bussiness_Layer
         {
             return null;
         }
-        public List<FlightSchedule> GetFlightsByRoute(string origin, string destination)
+        public List<FlightSchedule> GetFlightByRoute(string origin, string destination)
         {
             return null;
         }
-        public List<FlightSchedule> GetFlightsByDate(string flightId, DateTime travelon)
+        public List<FlightSchedule> GetFlightScheduleByDate(string flightId, DateTime travelon)
         {
             return null;
         }

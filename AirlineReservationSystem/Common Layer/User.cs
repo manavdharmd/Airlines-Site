@@ -15,6 +15,7 @@ namespace Common_Layer
         private string name;
         private string pwd;
         private string userId;
+        private string cct;
         public int AGE
         {
             get
@@ -92,15 +93,23 @@ namespace Common_Layer
                 userId = value;
             }
         }
+        public string CCT
+        {
+            get
+            { return cct;}
+            set
+            { cct = value; }
+        }
         public User(string userId, string name, string password, int age, string ccno, string cct, int ccem, int ccey)
         {
-            age=AGE;
-          ccEm=CCEM;
-          ccEY=CCEY;
-          ccNO=CCNo;
-          name=NAME;
-          pwd=PWD;
-        userId=USERID;
+            AGE=age;
+            CCEM=ccem;
+            CCEY=ccey;
+            CCNo=ccno;
+            NAME=name;
+            PWD=password;
+            USERID=userId;
+            CCT = cct;
     }
     }
 }

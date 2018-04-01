@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
-namespace DBConnection
+namespace Data_Layer
 {
-    class DBConnection
+   public class DBConnection
     {
         SqlConnection con = new SqlConnection(@"Data Source=(LocalDb)\Man;Initial Catalog=AirlineSystem_DataBase;Integrated Security=True");
         public SqlConnection GetConnection()

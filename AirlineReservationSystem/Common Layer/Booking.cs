@@ -74,7 +74,7 @@ namespace Common_Layer
             FLIGHTID = flightId;
             STATUS = status;
             SEAT =seats;
-            COST= cost
+            COST = cost;
         }
         public void AddPassenger(string name, int age)
         {

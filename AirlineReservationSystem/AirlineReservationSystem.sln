@@ -3,28 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AirlineReservationSystem", "F:\GitHub_Projects\AirlineReservationSystem\", "{C46F78C4-E4F7-4C58-B3CA-E93327E20DF5}"
-	ProjectSection(WebsiteProperties) = preProject
-		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
-		Debug.AspNetCompiler.VirtualPath = "/localhost_9944"
-		Debug.AspNetCompiler.PhysicalPath = "F:\GitHub_Projects\AirlineReservationSystem\"
-		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9944\"
-		Debug.AspNetCompiler.Updateable = "true"
-		Debug.AspNetCompiler.ForceOverwrite = "true"
-		Debug.AspNetCompiler.FixedNames = "false"
-		Debug.AspNetCompiler.Debug = "True"
-		Release.AspNetCompiler.VirtualPath = "/localhost_9944"
-		Release.AspNetCompiler.PhysicalPath = "F:\GitHub_Projects\AirlineReservationSystem\"
-		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_9944\"
-		Release.AspNetCompiler.Updateable = "true"
-		Release.AspNetCompiler.ForceOverwrite = "true"
-		Release.AspNetCompiler.FixedNames = "false"
-		Release.AspNetCompiler.Debug = "False"
-		VWDPort = "9944"
-		SlnRelativePath = "F:\GitHub_Projects\AirlineReservationSystem\"
-		DefaultWebSiteLanguage = "Visual C#"
-	EndProjectSection
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data Layer", "DBConnection\Data Layer.csproj", "{441BDFF3-3E56-46C7-A68E-49F16A8F685F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Layer", "Service Layer\Service Layer.csproj", "{EF5F37D3-F516-42E2-8507-94A56337B945}"
@@ -33,16 +11,35 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussiness Layer", "Bussines
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common Layer", "Common Layer\Common Layer.csproj", "{BF85DA60-5B02-49CA-8C45-E79ACB709523}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "AirlineReservationSystem(2)", "AirlineReservationSystem\", "{EE09EAB6-E841-4DBD-B441-EE4599460A7B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		ProjectReferences = "{ef5f37d3-f516-42e2-8507-94a56337b945}|Service Layer.dll;{2E9CBFD5-69D6-49A2-B942-EB262BCCB2BA}|Bussiness Layer.dll;{BF85DA60-5B02-49CA-8C45-E79ACB709523}|Common Layer.dll;{441BDFF3-3E56-46C7-A68E-49F16A8F685F}|DBConnection.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_12635"
+		Debug.AspNetCompiler.PhysicalPath = "AirlineReservationSystem\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12635\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_12635"
+		Release.AspNetCompiler.PhysicalPath = "AirlineReservationSystem\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_12635\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "12635"
+		SlnRelativePath = "AirlineReservationSystem\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{C46F78C4-E4F7-4C58-B3CA-E93327E20DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C46F78C4-E4F7-4C58-B3CA-E93327E20DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C46F78C4-E4F7-4C58-B3CA-E93327E20DF5}.Release|Any CPU.ActiveCfg = Debug|Any CPU
-		{C46F78C4-E4F7-4C58-B3CA-E93327E20DF5}.Release|Any CPU.Build.0 = Debug|Any CPU
 		{441BDFF3-3E56-46C7-A68E-49F16A8F685F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{441BDFF3-3E56-46C7-A68E-49F16A8F685F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{441BDFF3-3E56-46C7-A68E-49F16A8F685F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -59,6 +56,10 @@ Global
 		{BF85DA60-5B02-49CA-8C45-E79ACB709523}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF85DA60-5B02-49CA-8C45-E79ACB709523}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF85DA60-5B02-49CA-8C45-E79ACB709523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE09EAB6-E841-4DBD-B441-EE4599460A7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE09EAB6-E841-4DBD-B441-EE4599460A7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE09EAB6-E841-4DBD-B441-EE4599460A7B}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE09EAB6-E841-4DBD-B441-EE4599460A7B}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

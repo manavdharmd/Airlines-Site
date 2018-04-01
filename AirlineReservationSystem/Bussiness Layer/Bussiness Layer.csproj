@@ -45,5 +45,15 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UserADO.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common Layer\Common Layer.csproj">
+      <Project>{bf85da60-5b02-49ca-8c45-e79acb709523}</Project>
+      <Name>Common Layer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DBConnection\Data Layer.csproj">
+      <Project>{441bdff3-3e56-46c7-a68e-49f16a8f685f}</Project>
+      <Name>Data Layer</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

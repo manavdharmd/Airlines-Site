@@ -1,0 +1,6 @@
+F:\GitHub\Project 2\AirlineReservationSystem\Common Layer\obj\Debug\Common Layer.csprojResolveAssemblyReference.cache
+F:\GitHub\Project 2\AirlineReservationSystem\Common Layer\obj\Debug\Common Layer.csproj.CoreCompileInputs.cache
+F:\GitHub\Project 2\AirlineReservationSystem\Common Layer\bin\Debug\Common Layer.dll
+F:\GitHub\Project 2\AirlineReservationSystem\Common Layer\bin\Debug\Common Layer.pdb
+F:\GitHub\Project 2\AirlineReservationSystem\Common Layer\obj\Debug\Common Layer.dll
+F:\GitHub\Project 2\AirlineReservationSystem\Common Layer\obj\Debug\Common Layer.pdb
