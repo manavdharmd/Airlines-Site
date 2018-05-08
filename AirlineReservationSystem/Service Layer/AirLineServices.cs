@@ -25,7 +25,7 @@ namespace Service_Layer
         {
             return f_ob.GetFlightByRoute(origin, destination);
         }
-        public List<FlightSchedule> GetFlightSchedule(string flightId, DateTime travelDate)
+        public List<FlightSchedule> GetFlightSchedule(string flightId, DateTime travelDate) 
         {
             return f_ob.GetFlightScheduleByDate(flightId, travelDate);
         }

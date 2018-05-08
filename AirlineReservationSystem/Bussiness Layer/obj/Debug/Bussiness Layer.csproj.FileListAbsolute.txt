@@ -8,3 +8,14 @@ F:\GitHub\Project 2\AirlineReservationSystem\Bussiness Layer\obj\Debug\Bussiness
 F:\GitHub\Project 2\AirlineReservationSystem\Bussiness Layer\obj\Debug\Bussiness Layer.pdb
 F:\GitHub\Project 2\AirlineReservationSystem\Bussiness Layer\bin\Debug\DBConnection.dll
 F:\GitHub\Project 2\AirlineReservationSystem\Bussiness Layer\bin\Debug\DBConnection.pdb
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\bin\Debug\Bussiness Layer.dll
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\bin\Debug\Bussiness Layer.pdb
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\bin\Debug\Common Layer.dll
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\bin\Debug\DBConnection.dll
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\bin\Debug\Common Layer.pdb
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\bin\Debug\DBConnection.pdb
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\obj\Debug\Bussiness Layer.csprojResolveAssemblyReference.cache
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\obj\Debug\Bussiness Layer.csproj.CoreCompileInputs.cache
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\obj\Debug\Bussiness Layer.csproj.CopyComplete
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\obj\Debug\Bussiness Layer.dll
+E:\Git\Project-2\AirlineReservationSystem\Bussiness Layer\obj\Debug\Bussiness Layer.pdb

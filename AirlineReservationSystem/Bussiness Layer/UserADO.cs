@@ -17,7 +17,7 @@ namespace Bussiness_Layer
             SqlConnection con = ob.GetConnection();
             SqlCommand cmd = new SqlCommand();
             cmd.CommandType = CommandType.Text;
-            cmd.CommandText = "Insert into Ar_User values(@userid,@name,@pass,@ccno,@cctype,@ccmonth,@ccyear,@age)";
+            cmd.CommandText = "Insert into AR_User values(@userid,@name,@pass,@ccno,@cctype,@ccmonth,@ccyear,@age)";
             cmd.Parameters.AddWithValue("@userid", u.USERID);
             cmd.Parameters.AddWithValue("@name", u.NAME);
             cmd.Parameters.AddWithValue("@pass", u.PWD);

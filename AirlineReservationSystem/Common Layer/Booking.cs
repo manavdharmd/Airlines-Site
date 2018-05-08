@@ -69,6 +69,7 @@ namespace Common_Layer
         }
         public Booking(string userId, DateTime travelon, string flightId, string status, int seats, float cost)
         {
+            REFERNCEID = -1;
             USERID = userId;
             TRAVELON = travelon;
             FLIGHTID = flightId;
@@ -76,9 +77,10 @@ namespace Common_Layer
             SEAT =seats;
             COST = cost;
         }
+        List<Passenger> lp = new List<Passenger>();
         public void AddPassenger(string name, int age)
         {
-
+            lp.Add(new Passenger(name, age));
         }
         public void Cancel()
         {

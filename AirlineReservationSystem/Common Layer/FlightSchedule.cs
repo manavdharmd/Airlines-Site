@@ -14,7 +14,6 @@ namespace Common_Layer
         private DateTime flightdate;
         private string flightId;
         private int seatsAvaliable;
-
         public string Arrival
         {
             get
@@ -87,15 +86,14 @@ namespace Common_Layer
                 seatsAvaliable = value;
             }
         }
-
         public FlightSchedule(string flightId, DateTime flightdate, int seatsAvaliable, float cost, string arrival, string departure)
         {
-            flightId = this.flightId;
-            flightdate = this.flightdate;
-            seatsAvaliable = this.seatsAvaliable;
-            cost = this.cost;
-            arrival = this.arrival;
-            departure = this.departure;
+            FlightId = flightId;
+            Flightdate = flightdate;
+            SeatsAvaliable = seatsAvaliable;
+            Cost = cost;
+            Arrival = arrival;
+            Departure = departure;
 
         }
         public FlightSchedule(string flightId, string arrival, string departure)

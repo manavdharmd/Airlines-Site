@@ -4,3 +4,9 @@ F:\GitHub\Project 2\AirlineReservationSystem\DBConnection\obj\Debug\Data Layer.c
 F:\GitHub\Project 2\AirlineReservationSystem\DBConnection\obj\Debug\Data Layer.csproj.CoreCompileInputs.cache
 F:\GitHub\Project 2\AirlineReservationSystem\DBConnection\obj\Debug\DBConnection.dll
 F:\GitHub\Project 2\AirlineReservationSystem\DBConnection\obj\Debug\DBConnection.pdb
+E:\Git\Project-2\AirlineReservationSystem\DBConnection\bin\Debug\DBConnection.dll
+E:\Git\Project-2\AirlineReservationSystem\DBConnection\bin\Debug\DBConnection.pdb
+E:\Git\Project-2\AirlineReservationSystem\DBConnection\obj\Debug\Data Layer.csproj.CoreCompileInputs.cache
+E:\Git\Project-2\AirlineReservationSystem\DBConnection\obj\Debug\DBConnection.dll
+E:\Git\Project-2\AirlineReservationSystem\DBConnection\obj\Debug\DBConnection.pdb
+E:\Git\Project-2\AirlineReservationSystem\DBConnection\obj\Debug\Data Layer.csprojResolveAssemblyReference.cache
