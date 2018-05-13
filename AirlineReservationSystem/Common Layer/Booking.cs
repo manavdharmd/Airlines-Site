@@ -76,11 +76,11 @@ namespace Common_Layer
             STATUS = status;
             SEAT =seats;
             COST = cost;
+            PASSENGERS =  new List<Passenger>();
         }
-        List<Passenger> lp = new List<Passenger>();
         public void AddPassenger(string name, int age)
         {
-            lp.Add(new Passenger(name, age));
+            PASSENGERS.Add(new Passenger(name, age));
         }
         public void Cancel()
         {
@@ -88,7 +88,16 @@ namespace Common_Layer
         }
         public bool Cancel(int refrenceId,int ticket)
         {
+            foreach (Passenger p in this.PASSENGERS)
+            {
+                if (p.TicketNo == ticket)
+                {
+                    p.Status = "C";
+                    return true;
+                }
+            }
             return false;
+           
         }
        
     }

@@ -8,7 +8,6 @@ using Service_Layer;
 using Common_Layer;
 public partial class FlightBooking : System.Web.UI.Page
 {
-    AirLineServices als = new AirLineServices();
     protected void Page_Load(object sender, EventArgs e)
     {
         MultiView1.Visible = true;
@@ -37,26 +36,25 @@ public partial class FlightBooking : System.Web.UI.Page
     protected void Button1_Click(object sender, EventArgs e)
     {
         Session["Brid"] = new Booking(Session["Id"].ToString(),
-            (DateTime)Session["Fd"],
+            Convert.ToDateTime(Session["Fd"]),
             Session["Fid"].ToString(),
             "B",
             Convert.ToInt32(Session["Bs"]),
             float.Parse(Session["Tc"].ToString())
             );
-     Session["Bref"]=als.saveBooking((Booking)Session["Brid"]);
+
         MultiView1.Visible = true;
         MultiView1.ActiveViewIndex = 1;
-            Label10.Text = "Passenger Name";
-            Label11.Text = "Age";
-        Session["Bs"] = (Convert.ToInt32(Session["Bs"])-1);
-        Booking b=(Booking)Session["Brid"];
-        b.AddPassenger(pn_txt.Text,Convert.ToInt32(age_txt.Text));
+        Label10.Text = "Passenger Name";
+        Label11.Text = "Age";
     }
 
     protected void Button2_Click(object sender, EventArgs e)
     {
         if ((Convert.ToInt32(Session["Bs"])) == 0)
         {
+            AirLineServices als = new AirLineServices();
+            Session["Bref"] = als.saveBooking((Booking)Session["Brid"]);
             Response.Redirect("http://localhost:12635/Confirm.aspx");
         }
         else
@@ -64,8 +62,6 @@ public partial class FlightBooking : System.Web.UI.Page
             MultiView1.Visible = true;
             MultiView1.ActiveViewIndex = 1;
             Session["Bs"] = (Convert.ToInt32(Session["Bs"]) - 1);
-            Label10.Text = "Passenger Name";
-            Label11.Text = "Age";
             Booking b = (Booking)Session["Brid"];
             b.AddPassenger(pn_txt.Text, Convert.ToInt32(age_txt.Text));
         }
