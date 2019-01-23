@@ -8,7 +8,7 @@ namespace Data_Layer
 {
    public class DBConnection
     {
-        SqlConnection con = new SqlConnection(@"Data Source=(localdb)\man;Initial Catalog=AirlinesReservationSystem;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=LAPTOP-55D3RL3T;Initial Catalog=Airline;Integrated Security=True");
         public SqlConnection GetConnection()
         {
             con.Open();
